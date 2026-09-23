@@ -21,7 +21,7 @@ export default function Home() {
       <nav className="nav-wrap" aria-label="Main navigation">
         <a className="brand" href="#top" aria-label="qflow home"><Image className="brand-logo" src="/logo.svg" alt="qflow" width={117} height={57} priority /></a>
         <div className="nav-links"><a className="!text-[#c3d1c6] hover:!text-white" href="#how-it-works">How it works</a><a className="!text-[#c3d1c6] hover:!text-white" href="#businesses">For businesses</a></div>
-        <div className="nav-actions"><a className="login-link !text-[#c3d1c6] hover:!text-white" href="#login">Log in</a><a className="button button-small button-dark !bg-[#02100c]" href="#signup">Sign up free <span>↗</span></a></div>
+        <div className="nav-actions"><a className="login-link !text-[#c3d1c6] hover:!text-white" href="/login">Log in</a><a className="button button-small button-dark !bg-[#02100c]" href="/signup">Sign up free <span>↗</span></a></div>
       </nav>
       <section className="hero" id="top">
         <div className="hero-copy">
